@@ -1,0 +1,225 @@
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.deps.json
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.runtimeconfig.json
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.dll
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/ref/RawDeal.dll
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.pdb
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDealView.dll
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDealView.pdb
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.AssemblyReference.cache
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.GeneratedMSBuildEditorConfig.editorconfig
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.AssemblyInfoInputs.cache
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.AssemblyInfo.cs
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.CoreCompileInputs.cache
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.CopyComplete
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.dll
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/ref/RawDeal.dll
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.pdb
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.genruntimeconfig.cache
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/1.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/2.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/3.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/4.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/5.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/6.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/01.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/02.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/03.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/04.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/05.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/06.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/07.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/1.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/10.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/11.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/2.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/3.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/4.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/5.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/6.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/7.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/8.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/9.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/01.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/02.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/03.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/04.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/05.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/06.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/07.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/08.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/09.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/10.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/11.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/12.txt
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/cards.json
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/superstar.json
+/home/rodrigo/Desktop/IIC2113/2023-1/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/superstar2.json
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/1.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/2.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/3.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/4.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/5.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/6.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/01.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/02.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/03.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/04.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/05.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/06.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/07.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/1.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/10.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/11.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/2.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/3.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/4.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/5.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/6.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/7.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/8.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/9.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/01.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/02.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/03.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/04.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/05.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/06.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/07.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/08.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/09.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/10.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/11.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/12.txt
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/cards.json
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/data/superstar.json
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.deps.json
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.runtimeconfig.json
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.dll
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/ref/RawDeal.dll
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.pdb
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDealView.dll
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/bin/Debug/net6.0/RawDealView.pdb
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.AssemblyReference.cache
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.GeneratedMSBuildEditorConfig.editorconfig
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.AssemblyInfoInputs.cache
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.AssemblyInfo.cs
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.CoreCompileInputs.cache
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.CopyComplete
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.dll
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/ref/RawDeal.dll
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.pdb
+/home/rodrigo/Desktop/IIC2113/2023-2/Proyecto/Entrega 1/Enunciado/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.genruntimeconfig.cache
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.AssemblyReference.cache
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.AssemblyInfoInputs.cache
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.AssemblyInfo.cs
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.CoreCompileInputs.cache
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.dll
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.pdb
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.exe
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/1.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/2.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/3.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/4.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/5.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/6.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/01.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/02.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/03.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/04.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/05.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/06.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/07.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/1.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/10.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/11.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/2.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/3.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/4.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/5.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/6.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/7.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/8.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/9.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/01.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/02.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/03.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/04.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/05.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/06.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/07.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/08.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/09.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/10.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/11.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/12.txt
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/cards.json
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/data/superstar.json
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.deps.json
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.runtimeconfig.json
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.dll
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.pdb
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/RawDealView.dll
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/bin/Debug/net6.0/RawDealView.pdb
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.CopyComplete
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/refint/RawDeal.dll
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.genruntimeconfig.cache
+C:/Users/julia/Downloads/RawDeal/RawDeal/RawDeal/obj/Debug/net6.0/ref/RawDeal.dll
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/1.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/2.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/3.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/4.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/5.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks-Tests/6.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/01.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/02.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/03.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/04.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/05.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/06.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/01-ValidDecks/07.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/1.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/10.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/11.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/2.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/3.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/4.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/5.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/6.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/7.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/8.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks-Tests/9.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/01.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/02.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/03.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/04.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/05.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/06.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/07.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/08.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/09.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/10.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/11.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/02-InvalidDecks/12.txt
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/cards.json
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/data/superstar.json
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.deps.json
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.runtimeconfig.json
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.dll
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/RawDeal.pdb
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/RawDealView.dll
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/bin/Debug/net6.0/RawDealView.pdb
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.AssemblyReference.cache
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.AssemblyInfoInputs.cache
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.AssemblyInfo.cs
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.CoreCompileInputs.cache
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.csproj.CopyComplete
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.dll
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/refint/RawDeal.dll
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.pdb
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/RawDeal.genruntimeconfig.cache
+/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/Debug/net6.0/ref/RawDeal.dll

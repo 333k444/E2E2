@@ -1,0 +1,38 @@
+-------------------------
+Elige un mazo
+1- data/01-ValidDecks/01.txt
+2- data/01-ValidDecks/02.txt
+3- data/01-ValidDecks/03.txt
+4- data/01-ValidDecks/04.txt
+5- data/01-ValidDecks/05.txt
+6- data/01-ValidDecks/06.txt
+7- data/01-ValidDecks/07.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 5
+-------------------------
+Elige un mazo
+1- data/01-ValidDecks/01.txt
+2- data/01-ValidDecks/02.txt
+3- data/01-ValidDecks/03.txt
+4- data/01-ValidDecks/04.txt
+5- data/01-ValidDecks/05.txt
+6- data/01-ValidDecks/06.txt
+7- data/01-ValidDecks/07.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 6
+
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+THE ROCK: 0F, tiene 5 cartas en la mano y 55 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 4
+
+--------------------------------------------
+Felicidades, gana THE ROCK.
