@@ -2,10 +2,10 @@ namespace RawDealView;
 
 public class PlayerInfo
 {
-    private string _superstarName;
-    private int _fortitudeRating;
-    private int _numberOfCardsInHand;
-    private int _numberOfCardsInArsenal;
+    private readonly string _superstarName;
+    private readonly int _fortitudeRating;
+    private readonly int _numberOfCardsInHand;
+    private readonly int _numberOfCardsInArsenal;
 
     public PlayerInfo(string superstarName, int fortitudeRating, int numberOfCardsInHand, int numberOfCardsInArsenal)
     {

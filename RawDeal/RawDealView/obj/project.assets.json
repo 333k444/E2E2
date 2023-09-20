@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/RawDealView.csproj",
+      "projectUniqueName": "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/RawDealView.csproj",
       "projectName": "RawDealView",
-      "projectPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/RawDealView.csproj",
+      "projectPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/RawDealView.csproj",
       "packagesPath": "/Users/Julian.Araya/.nuget/packages/",
-      "outputPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/obj/",
+      "outputPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Julian.Araya/.nuget/NuGet/NuGet.Config"

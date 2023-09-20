@@ -98,7 +98,7 @@ namespace RawDeal
             {
                 _view.SayThatATurnBegins(superstarName1);
                 _view.ShowGameInfo(p1, p2);
-                _view.AskUserWhatToDoWhenItIsNotPossibleToUseItsAbility();
+                _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
                 _view.CongratulateWinner(superstarName2);
             }
             else if (sval2 > sval1)
@@ -107,14 +107,14 @@ namespace RawDeal
                 p1 = new PlayerInfo(superstarName1, 0, handSize1, 60-handSize1);
                 _view.SayThatATurnBegins(superstarName2);
                 _view.ShowGameInfo(p2, p1);
-                _view.AskUserWhatToDoWhenItIsNotPossibleToUseItsAbility();
+                _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
                 _view.CongratulateWinner(superstarName1);
             }
             else
             {
                 _view.SayThatATurnBegins(superstarName1);
                 _view.ShowGameInfo(p1, p2);
-                _view.AskUserWhatToDoWhenItIsNotPossibleToUseItsAbility();
+                _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
                 _view.CongratulateWinner(superstarName2);
             }
             

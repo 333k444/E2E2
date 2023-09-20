@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Julian.Araya/Desktop/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj": {}
+    "/Users/Julian.Araya/Downloads/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj": {}
   },
   "projects": {
-    "/Users/Julian.Araya/Desktop/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj": {
+    "/Users/Julian.Araya/Downloads/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Julian.Araya/Desktop/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj",
+        "projectUniqueName": "/Users/Julian.Araya/Downloads/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj",
         "projectName": "RawDeal.Tests",
-        "projectPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj",
+        "projectPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj",
         "packagesPath": "/Users/Julian.Araya/.nuget/packages/",
-        "outputPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDeal.Tests/obj/",
+        "outputPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDeal.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Julian.Araya/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/Julian.Araya/Desktop/RawDeal/RawDeal/RawDeal.csproj": {
-                "projectPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDeal/RawDeal.csproj"
+              "/Users/Julian.Araya/Downloads/RawDeal/RawDeal/RawDeal.csproj": {
+                "projectPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDeal/RawDeal.csproj"
               },
-              "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/RawDealView.csproj": {
-                "projectPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/RawDealView.csproj"
+              "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/RawDealView.csproj": {
+                "projectPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/RawDealView.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "/Users/Julian.Araya/Desktop/RawDeal/RawDeal/RawDeal.csproj": {
+    "/Users/Julian.Araya/Downloads/RawDeal/RawDeal/RawDeal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Julian.Araya/Desktop/RawDeal/RawDeal/RawDeal.csproj",
+        "projectUniqueName": "/Users/Julian.Araya/Downloads/RawDeal/RawDeal/RawDeal.csproj",
         "projectName": "RawDeal",
-        "projectPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDeal/RawDeal.csproj",
+        "projectPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDeal/RawDeal.csproj",
         "packagesPath": "/Users/Julian.Araya/.nuget/packages/",
-        "outputPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDeal/obj/",
+        "outputPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDeal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Julian.Araya/.nuget/NuGet/NuGet.Config"
@@ -108,8 +108,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/RawDealView.csproj": {
-                "projectPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/RawDealView.csproj"
+              "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/RawDealView.csproj": {
+                "projectPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/RawDealView.csproj"
               }
             }
           }
@@ -143,14 +143,14 @@
         }
       }
     },
-    "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/RawDealView.csproj": {
+    "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/RawDealView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/RawDealView.csproj",
+        "projectUniqueName": "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/RawDealView.csproj",
         "projectName": "RawDealView",
-        "projectPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/RawDealView.csproj",
+        "projectPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/RawDealView.csproj",
         "packagesPath": "/Users/Julian.Araya/.nuget/packages/",
-        "outputPath": "/Users/Julian.Araya/Desktop/RawDeal/RawDealView/obj/",
+        "outputPath": "/Users/Julian.Araya/Downloads/RawDeal/RawDealView/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Julian.Araya/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FBwCp3TXTWxI98QBwH8vVIvTQtlQI4DpXVYAMWaGzL2apcFz/9o65O7uQIftstIiEJqVpevDcZOCslLoIMBsKg==",
+  "dgSpecHash": "Jcl1v6EQ6+tCvcaLvE/5+i4L0Em80PvwYykW7PGphODMliJ579eh7u4k+1JFwcpjferIC9zlZqLEuZuw2bWQeg==",
   "success": true,
-  "projectFilePath": "/Users/Julian.Araya/Desktop/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj",
+  "projectFilePath": "/Users/Julian.Araya/Downloads/RawDeal/RawDeal.Tests/RawDeal.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/Julian.Araya/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/Julian.Araya/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",
