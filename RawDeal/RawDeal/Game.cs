@@ -204,10 +204,11 @@ namespace RawDeal
                 void HandlePlayerActions(int turno)
 
                 {
-                    List<string> currentPlayerDeck, currentPlayerHand;
-                    string currentPlayerName;
                     
                     string currentPlayer = (turno == 1) ? superstarName1 : superstarName2;
+                    string superstarAbility = (turno == 1) ? superstar1.SuperstarAbility : superstar2.SuperstarAbility;
+                    List<string> currentArsenal = (turno == 1) ? player1Deck : player2Deck;
+                    List<string> currentRingSide = (turno == 1) ? player1RingsidePile : player2RingsidePile;
                     
 
                     PlayerInfo player1 = new PlayerInfo(superstarName1, player1FortitudeRating,
@@ -223,7 +224,6 @@ namespace RawDeal
                     {
                         
                         UseTheRockAbility(turno);
-                        UseUndertakerAbility(turno);
                         
                         DrawCard(player1Deck, player1Hand, turno);
                         UpdatePlayerInfo(out player1, out player2);
@@ -245,7 +245,6 @@ namespace RawDeal
                     {
                         
                         UseTheRockAbility(turno);
-                        UseUndertakerAbility(turno);
                         
                         DrawCard(player2Deck, player2Hand, turno);
                         UpdatePlayerInfo(out player2, out player2);
@@ -271,20 +270,50 @@ namespace RawDeal
                         _view.ShowGameInfo(player2, player1);
                     }
 
+
+                    NextPlay action;
                     
-                  
-                    NextPlay action = _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
+                    
+                    if (currentPlayer == "THE UNDERTAKER")
+
+                    {
+                        NextPlay action = _view.AskUserWhatToDoWhenUsingHisAbilityIsPossible();
+
+                    }
+
+                    else
+                    {
+                        NextPlay action = _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
+
+                    }
                     
 
                     while (action != NextPlay.GiveUp)
 
                     {
-                        
+                        string currentPlayer = (turno == 1) ? superstarName1 : superstarName2;
+                        string superstarAbility = (turno == 1) ? superstar1.SuperstarAbility : superstar2.SuperstarAbility;
+                        List<string> currentArsenal = (turno == 1) ? player1Deck : player2Deck;
+                        List<string> currentRingSide = (turno == 1) ? player1RingsidePile : player2RingsidePile;
+
                         switch (action)
                         {
                             
                             
-                            
+                            case NextPlay.UseAbility:
+                                if (currentPlayer == "THE UNDERTAKER")
+                                    
+                                    {
+                                        UseUndertakerAbility(turno);
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("No se encontro superheroe");
+                                    }
+
+                                break;
+                                
+                                
                             case NextPlay.ShowCards:
 
                                 CardSet cardSetChoice = _view.AskUserWhatSetOfCardsHeWantsToSee();
@@ -396,16 +425,16 @@ namespace RawDeal
                                 break;
                             
 
-                            case NextPlay.UseAbility:
-                                
-                                if (currentPlayer == "THE UNDERTAKER")
-                                {
-                                    UseUndertakerAbility(turno);
-                                }
-                                else
-                                {
-                                    Console.WriteLine("No se encontro superheroe");
-                                }
+                            // case NextPlay.UseAbility:
+                            //     
+                            //     if (currentPlayer == "THE UNDERTAKER")
+                            //     {
+                            //         UseUndertakerAbility(turno);
+                            //     }
+                            //     else
+                            //     {
+                            //         Console.WriteLine("No se encontro superheroe");
+                            //     }
                                 
                                 
                             case NextPlay.EndTurn:
