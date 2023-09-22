@@ -151,6 +151,7 @@ namespace RawDeal
                 Superstar superstar1 = superstarInfo.FirstOrDefault(s => s.Name == superstarName1);
                 if (superstar1 != null)
                 {
+                    string superstarAbility1 = superstar1.SuperstarAbility;
                     handSize1 = superstar1.HandSize;
                     player1Hand = player1Deck.GetRange(player1Deck.Count - handSize1, handSize1);
                     player1Hand.Reverse();
@@ -164,6 +165,7 @@ namespace RawDeal
                 Superstar superstar2 = superstarInfo.FirstOrDefault(s => s.Name == superstarName2);
                 if (superstar2 != null)
                 {
+                    string superstarAbility2 = superstar2.SuperstarAbility;
                     handSize2 = superstar2.HandSize;
                     player2Hand = player2Deck.GetRange(player2Deck.Count - handSize2, handSize2);
                     player2Hand.Reverse();
@@ -201,6 +203,27 @@ namespace RawDeal
                 void HandlePlayerActions(int turno)
 
                 {
+                    List<string> currentPlayerDeck, currentPlayerHand;
+                    string currentPlayerName;
+
+                    if (turno == 1)
+                    {
+                        currentPlayerDeck = player1Deck;
+                        currentPlayerHand = player1Hand;
+                        currentPlayerName = superstarName1;
+                    }
+                    else
+                    {
+                        currentPlayerDeck = player2Deck;
+                        currentPlayerHand = player2Hand;
+                        currentPlayerName = superstarName2;
+                    }
+                    
+                    if (currentPlayerName == "KANE")
+                    {
+                        Console.WriteLine("El eSTOY guaton");
+                        ApplyKaneAbility(turno);
+                    }
 
                     PlayerInfo player1 = new PlayerInfo(superstarName1, player1FortitudeRating,
                         player1Hand.Count,
@@ -237,6 +260,7 @@ namespace RawDeal
                     while (action != NextPlay.GiveUp)
 
                     {
+                        
                         switch (action)
                         {
                             case NextPlay.ShowCards:
@@ -812,6 +836,39 @@ namespace RawDeal
 
                     return true;
                     
+                }
+                
+                // Función para manejar la habilidad de Kane
+                void ApplyKaneAbility(int turno)
+                {
+                    List<string> opponentPlayerDeck;
+                    if (turno == 1)
+                    {
+                        _view.SayThatPlayerIsGoingToUseHisAbility("Kane", superstar1.SuperstarAbility);
+                        opponentPlayerDeck = player2Deck;
+                    }
+                    else
+                    {
+                        _view.SayThatPlayerIsGoingToUseHisAbility("Kane", superstar2.SuperstarAbility);
+                        opponentPlayerDeck = player1Deck;
+                    }
+
+                    if (opponentPlayerDeck.Any())
+                    {
+                        string overturnedCardName = opponentPlayerDeck.Last();
+                        opponentPlayerDeck.RemoveAt(opponentPlayerDeck.Count - 1);
+                        if (turno == 1)
+                        {
+                            player2RingsidePile.Add(overturnedCardName);
+                        }
+                        else
+                        {
+                            player1RingsidePile.Add(overturnedCardName);
+                        }
+                        var overturnedCardInfo = ConvertToCardInfo(overturnedCardName, cardsInfo);
+                        string cardInfoString = RawDealView.Formatters.Formatter.CardToString(overturnedCardInfo);
+                        _view.ShowCardOverturnByTakingDamage(cardInfoString, 1, 1);
+                    }
                 }
 
             }
