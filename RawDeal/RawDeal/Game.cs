@@ -205,25 +205,7 @@ namespace RawDeal
                 {
                     List<string> currentPlayerDeck, currentPlayerHand;
                     string currentPlayerName;
-
-                    if (turno == 1)
-                    {
-                        currentPlayerDeck = player1Deck;
-                        currentPlayerHand = player1Hand;
-                        currentPlayerName = superstarName1;
-                    }
-                    else
-                    {
-                        currentPlayerDeck = player2Deck;
-                        currentPlayerHand = player2Hand;
-                        currentPlayerName = superstarName2;
-                    }
                     
-                    if (currentPlayerName == "KANE")
-                    {
-                        Console.WriteLine("El eSTOY guaton");
-                        ApplyKaneAbility(turno);
-                    }
 
                     PlayerInfo player1 = new PlayerInfo(superstarName1, player1FortitudeRating,
                         player1Hand.Count,
@@ -397,7 +379,16 @@ namespace RawDeal
                                     DrawCard(player2Deck, player2Hand, turno);
                                     UpdatePlayerInfo(out player1, out player2);
                                     _view.SayThatATurnBegins(superstarName2);
+                                    Console.WriteLine($"Jugador actual: {superstarName2}"); 
+                                    
+                                    if (superstarName2.ToUpper() == "KANE")
+                                    {
+                                        Console.WriteLine("Entrando en el bloque de Kane"); // Mensaje de depuración
+                                        ApplyKaneAbility(2);
+                                        UpdatePlayerInfo(out player1, out player2);
+                                    }
                                     turno = (turno == 1) ? 2 : 1;
+                           
                                 }
 
                                 else
@@ -405,7 +396,16 @@ namespace RawDeal
                                     DrawCard(player1Deck, player1Hand, turno);
                                     UpdatePlayerInfo(out player1, out player2);
                                     _view.SayThatATurnBegins(superstarName1);
-                                    turno = (turno == 1) ? 2 : 1;
+                                    Console.WriteLine($"Jugador actual: {superstarName1}");
+
+                                    if (superstarName1.ToUpper() == "KANE")
+                                    {
+                                        Console.WriteLine("Entrando en el bloque de Kane"); // Mensaje de depuración
+                                        ApplyKaneAbility(1);
+                                        UpdatePlayerInfo(out player1, out player2);
+                                        turno = (turno == 1) ? 2 : 1;
+                                  
+                                    }
                                 }
 
 
@@ -427,11 +427,11 @@ namespace RawDeal
                     
                     if (turno == 1)
                     {
-                        _view.CongratulateWinner(superstarName1);
+                        _view.CongratulateWinner(superstarName2);
                     }
                     else
                     {
-                        _view.CongratulateWinner(superstarName2);
+                        _view.CongratulateWinner(superstarName1);
                     }
                     
                 }
@@ -844,12 +844,14 @@ namespace RawDeal
                     List<string> opponentPlayerDeck;
                     if (turno == 1)
                     {
-                        _view.SayThatPlayerIsGoingToUseHisAbility("Kane", superstar1.SuperstarAbility);
+                        _view.SayThatPlayerIsGoingToUseHisAbility("KANE", superstar1.SuperstarAbility);
+                        _view.SayThatSuperstarWillTakeSomeDamage(superstarName2, 1);
                         opponentPlayerDeck = player2Deck;
                     }
                     else
                     {
-                        _view.SayThatPlayerIsGoingToUseHisAbility("Kane", superstar2.SuperstarAbility);
+                        _view.SayThatPlayerIsGoingToUseHisAbility("KANE", superstar2.SuperstarAbility);
+                        _view.SayThatSuperstarWillTakeSomeDamage(superstarName1, 1);
                         opponentPlayerDeck = player1Deck;
                     }
 
