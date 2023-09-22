@@ -199,12 +199,15 @@ namespace RawDeal
                     HandlePlayerActions(1);
 
                 }
+                
 
                 void HandlePlayerActions(int turno)
 
                 {
                     List<string> currentPlayerDeck, currentPlayerHand;
                     string currentPlayerName;
+                    
+                    string currentPlayer = (turno == 1) ? superstarName1 : superstarName2;
                     
 
                     PlayerInfo player1 = new PlayerInfo(superstarName1, player1FortitudeRating,
@@ -220,6 +223,8 @@ namespace RawDeal
                     {
                         
                         UseTheRockAbility(turno);
+                        UseUndertakerAbility(turno);
+                        
                         DrawCard(player1Deck, player1Hand, turno);
                         UpdatePlayerInfo(out player1, out player2);
                         
@@ -240,6 +245,8 @@ namespace RawDeal
                     {
                         
                         UseTheRockAbility(turno);
+                        UseUndertakerAbility(turno);
+                        
                         DrawCard(player2Deck, player2Hand, turno);
                         UpdatePlayerInfo(out player2, out player2);
                         
@@ -264,7 +271,10 @@ namespace RawDeal
                         _view.ShowGameInfo(player2, player1);
                     }
 
+                    
+                  
                     NextPlay action = _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
+                    
 
                     while (action != NextPlay.GiveUp)
 
@@ -415,6 +425,7 @@ namespace RawDeal
                                     Console.WriteLine($"Jugador actual: {superstarName2}");
                                     
                                     UseTheRockAbility(turno);
+                                    UseUndertakerAbility(turno);
                                     
                                     if (superstarName2.ToUpper() == "KANE")
                                     {
@@ -442,7 +453,7 @@ namespace RawDeal
                                     Console.WriteLine($"Jugador actual: {superstarName1}");
 
                                     UseTheRockAbility(turno);
-                        
+                                    UseUndertakerAbility(turno);
                                     if (superstarName1.ToUpper() == "KANE")
                                     {
                                         Console.WriteLine("Entrando en el bloque de Kane"); // Mensaje de depuración
@@ -923,38 +934,89 @@ namespace RawDeal
                         _view.ShowCardOverturnByTakingDamage(cardInfoString, 1, 1);
                     }
                 }
-                
+
                 void UseTheRockAbility(int turn)
                 {
-                    
+
                     Console.WriteLine("ENTRANDO EN THE ROCK");
                     string currentPlayer = (turn == 1) ? superstarName1 : superstarName2;
                     string superstarAbility = (turn == 1) ? superstar1.SuperstarAbility : superstar2.SuperstarAbility;
-                    List<string> currentArsenal = (turn == 1) ? player1Deck: player2Deck;
+                    List<string> currentArsenal = (turn == 1) ? player1Deck : player2Deck;
                     List<string> currentRingSide = (turn == 1) ? player1RingsidePile : player2RingsidePile;
 
                     if (currentPlayer == "THE ROCK" && currentRingSide.Count() > 0)
                     {
-                        
+
                         Console.WriteLine("El estoy guaton");
                         bool wantsToUseAbility = _view.DoesPlayerWantToUseHisAbility("THE ROCK");
-                        
+
                         if (wantsToUseAbility)
                         {
-                            List<string> formattedRingSide = currentRingSide.Select(cardName => 
+                            List<string> formattedRingSide = currentRingSide.Select(cardName =>
                             {
                                 var cardInfo = ConvertToCardInfo(cardName, cardsInfo);
                                 return RawDealView.Formatters.Formatter.CardToString(cardInfo);
                             }).ToList();
-                            
+
                             _view.SayThatPlayerIsGoingToUseHisAbility("THE ROCK", superstarAbility);
-                            int cardId = _view.AskPlayerToSelectCardsToRecover(currentPlayer, 1, formattedRingSide );
+                            int cardId = _view.AskPlayerToSelectCardsToRecover(currentPlayer, 1, formattedRingSide);
                             currentRingSide.RemoveAt(cardId);
                             string selectedCard = currentRingSide[cardId];
                             currentArsenal.Insert(0, selectedCard); // Poner la carta al fondo del arsenal
                         }
                     }
                 }
+
+                void UseUndertakerAbility(int turn)
+                {
+                    string currentPlayer = (turn == 1) ? superstarName1 : superstarName2;
+                    string superstarAbility = (turn == 1) ? superstar1.SuperstarAbility : superstar2.SuperstarAbility;
+                    List<string> currentPlayerHand = (turn == 1) ? player1Hand : player2Hand;
+                    List<string> currentPlayerRingside = (turn == 1) ? player1RingsidePile : player2RingsidePile;
+                    Console.WriteLine("entre undertaker gordo");
+                    
+                    
+
+
+                    if (currentPlayer == "THE UNDERTAKER" && currentPlayerHand.Count >= 2)
+                    {
+                        
+                        Console.WriteLine("entre undertaker gordo");
+                        List<string> formattedRingSide = currentPlayerRingside.Select(cardName => 
+                        {
+                            var cardInfo = ConvertToCardInfo(cardName, cardsInfo);
+                            return RawDealView.Formatters.Formatter.CardToString(cardInfo);
+                        }).ToList();
+                        
+                        List<string> formattedHand = currentPlayerHand.Select(cardName => 
+                        {
+                            var cardInfo = ConvertToCardInfo(cardName, cardsInfo);
+                            return RawDealView.Formatters.Formatter.CardToString(cardInfo);
+                        }).ToList();
+                        
+                        
+                        Console.WriteLine("entre undertaker gordo");
+                        _view.SayThatPlayerIsGoingToUseHisAbility("THE UNDERTAKER", superstarAbility);
+
+                        // Discard two cards
+                        for (int i = 0; i < 2; i++)
+                        {
+                            int cardIdToDiscard = _view.AskPlayerToSelectACardToDiscard(formattedHand, 
+                                "THE UNDERTAKER", 
+                                "THE UNDERTAKER", 2 - i);
+                            string discardedCard = currentPlayerHand[cardIdToDiscard];
+                            currentPlayerHand.RemoveAt(cardIdToDiscard);
+                            currentPlayerRingside.Add(discardedCard);
+                        }
+
+                        // Choose a card from ringside to add to hand
+                        int cardIdToRecover = _view.AskPlayerToSelectCardsToPutInHisHand("THE UNDERTAKER", 1, formattedRingSide);
+                        string recoveredCard = currentPlayerRingside[cardIdToRecover];
+                        currentPlayerRingside.RemoveAt(cardIdToRecover);
+                        currentPlayerHand.Add(recoveredCard);
+                    }
+                }
+                
                 
                 
             }
