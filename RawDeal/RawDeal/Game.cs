@@ -284,6 +284,7 @@ namespace RawDeal
                         {
                             
                             
+                            
                             case NextPlay.ShowCards:
 
                                 CardSet cardSetChoice = _view.AskUserWhatSetOfCardsHeWantsToSee();
@@ -395,7 +396,18 @@ namespace RawDeal
                                 break;
                             
 
-
+                            case NextPlay.UseAbility:
+                                
+                                if (currentPlayer == "THE UNDERTAKER")
+                                {
+                                    UseUndertakerAbility(turno);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("No se encontro superheroe");
+                                }
+                                
+                                
                             case NextPlay.EndTurn:
 
                                 // Notify the players of the turn change
@@ -481,7 +493,16 @@ namespace RawDeal
                             _view.ShowGameInfo(player2, player1);
                         }
 
-                        action = _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
+                        if (currentPlayer == "THE UNDERTAKER")
+                        {
+                            action = _view.AskUserWhatToDoWhenUsingHisAbilityIsPossible();
+                        }
+                        else
+                        {
+                            action = _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
+                        }
+                        
+                        
                     }
                     
                     
