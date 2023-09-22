@@ -690,6 +690,7 @@ namespace RawDeal
                     }
 
                     _view.ShowCards(cardsToDisplay);
+              
                 }
 
                 void ShowPlayerRingsidePile(List<string> ringsidePile)
@@ -930,7 +931,7 @@ namespace RawDeal
                     string currentPlayer = (turn == 1) ? superstarName1 : superstarName2;
                     string superstarAbility = (turn == 1) ? superstar1.SuperstarAbility : superstar2.SuperstarAbility;
                     List<string> currentArsenal = (turn == 1) ? player1Deck: player2Deck;
-                    List<string> currentRingSide = (turn == 1) ? player1RingArea : player2RingArea;
+                    List<string> currentRingSide = (turn == 1) ? player1RingsidePile : player2RingsidePile;
 
                     if (currentPlayer == "THE ROCK" && currentRingSide.Count() > 0)
                     {
@@ -940,10 +941,16 @@ namespace RawDeal
                         
                         if (wantsToUseAbility)
                         {
+                            List<string> formattedRingSide = currentRingSide.Select(cardName => 
+                            {
+                                var cardInfo = ConvertToCardInfo(cardName, cardsInfo);
+                                return RawDealView.Formatters.Formatter.CardToString(cardInfo);
+                            }).ToList();
+                            
                             _view.SayThatPlayerIsGoingToUseHisAbility("THE ROCK", superstarAbility);
-                            int cardId = _view.AskPlayerToSelectCardsToRecover(currentPlayer, currentRingSide.Count, currentRingSide );
-                            string selectedCard = currentRingSide[cardId];
+                            int cardId = _view.AskPlayerToSelectCardsToRecover(currentPlayer, 1, formattedRingSide );
                             currentRingSide.RemoveAt(cardId);
+                            string selectedCard = currentRingSide[cardId];
                             currentArsenal.Insert(0, selectedCard); // Poner la carta al fondo del arsenal
                         }
                     }
