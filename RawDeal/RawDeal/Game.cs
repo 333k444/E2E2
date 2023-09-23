@@ -199,18 +199,17 @@ namespace RawDeal
                     HandlePlayerActions(1);
 
                 }
-
+                
 
                 void HandlePlayerActions(int turno)
 
                 {
+                    
                     string currentPlayer = (turno == 1) ? superstarName1 : superstarName2;
-
                     string superstarAbility = (turno == 1) ? superstar1.SuperstarAbility : superstar2.SuperstarAbility;
-                    List<string> currentPlayerHand = turno == 1 ? player1Hand : player2Hand;
                     List<string> currentArsenal = (turno == 1) ? player1Deck : player2Deck;
                     List<string> currentRingSide = (turno == 1) ? player1RingsidePile : player2RingsidePile;
-
+                    
 
                     PlayerInfo player1 = new PlayerInfo(superstarName1, player1FortitudeRating,
                         player1Hand.Count,
@@ -223,42 +222,42 @@ namespace RawDeal
                     if (turno == 1)
 
                     {
-
+                        
                         UseTheRockAbility(turno);
-
+                        
                         DrawCard(player1Deck, player1Hand, turno);
                         UpdatePlayerInfo(out player1, out player2);
-
-
+                        
+                        
                         if (superstarName1.ToUpper() == "KANE")
                         {
                             Console.WriteLine("Entrando en el bloque de Kane"); // Mensaje de depuración
                             ApplyKaneAbility(1);
                             UpdatePlayerInfo(out player1, out player2);
                             turno = (turno == 1) ? 2 : 1;
-
+                                  
                         }
-
+                        
                         UpdatePlayerInfo(out player1, out player2);
                     }
 
                     else
                     {
-
+                        
                         UseTheRockAbility(turno);
-
+                        
                         DrawCard(player2Deck, player2Hand, turno);
                         UpdatePlayerInfo(out player2, out player2);
-
+                        
                         if (superstarName2.ToUpper() == "KANE")
                         {
                             Console.WriteLine("Entrando en el bloque de Kane"); // Mensaje de depuración
                             ApplyKaneAbility(1);
                             UpdatePlayerInfo(out player1, out player2);
                             turno = (turno == 1) ? 2 : 1;
-
+                                  
                         }
-
+                        
                         UpdatePlayerInfo(out player1, out player2);
                     }
 
@@ -273,55 +272,44 @@ namespace RawDeal
 
 
                     NextPlay action;
+                    
+                    
+                    if (currentPlayer == "THE UNDERTAKER")
 
-                    if (currentPlayer == "THE UNDERTAKER" && currentPlayerHand.Count >= 2)
                     {
                         action = _view.AskUserWhatToDoWhenUsingHisAbilityIsPossible();
+
                     }
+
                     else
                     {
                         action = _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
-                    }
 
+                    }
+                    
 
                     while (action != NextPlay.GiveUp)
 
                     {
-
+                        
                         switch (action)
                         {
-
-
+                            
+                            
                             case NextPlay.UseAbility:
-
-                                if (turno == 1)
-
-                                {
-                                    if (superstarName1 == "THE UNDERTAKER")
+                                if (currentPlayer == "THE UNDERTAKER")
+                                    
                                     {
                                         UseUndertakerAbility(turno);
                                     }
                                     else
                                     {
-                                        Console.WriteLine("CHOCHE007");
+                                        Console.WriteLine("No se encontro superheroe");
                                     }
-                                }
-
-                                else
-                                {
-                                    if (superstarName2 == "THE UNDERTAKER")
-                                    {
-                                        UseUndertakerAbility(turno);
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine("CHOCHE007");
-                                    }
-                                }
 
                                 break;
-
-
+                                
+                                
                             case NextPlay.ShowCards:
 
                                 CardSet cardSetChoice = _view.AskUserWhatSetOfCardsHeWantsToSee();
@@ -431,8 +419,20 @@ namespace RawDeal
                                 }
 
                                 break;
+                            
 
-
+                            // case NextPlay.UseAbility:
+                            //     
+                            //     if (currentPlayer == "THE UNDERTAKER")
+                            //     {
+                            //         UseUndertakerAbility(turno);
+                            //     }
+                            //     else
+                            //     {
+                            //         Console.WriteLine("No se encontro superheroe");
+                            //     }
+                                
+                                
                             case NextPlay.EndTurn:
 
                                 // Notify the players of the turn change
@@ -452,39 +452,39 @@ namespace RawDeal
 
                                 if (turno == 1)
                                 {
-
+                                    
                                     turno = (turno == 1) ? 2 : 1;
-
+                                    
                                     Console.WriteLine("EL TURNO ES");
                                     Console.WriteLine(turno);
-
+                                    
                                     _view.SayThatATurnBegins(superstarName2);
                                     Console.WriteLine($"Jugador actual: {superstarName2}");
-
+                                    
                                     UseTheRockAbility(turno);
                                     UseUndertakerAbility(turno);
-
+                                    
                                     if (superstarName2.ToUpper() == "KANE")
                                     {
                                         Console.WriteLine("Entrando en el bloque de Kane"); // Mensaje de depuración
                                         ApplyKaneAbility(2);
                                         UpdatePlayerInfo(out player1, out player2);
                                     }
-
+                                    
                                     DrawCard(player2Deck, player2Hand, turno);
                                     UpdatePlayerInfo(out player1, out player2);
-
+                           
                                 }
 
                                 else
                                 {
-
-
+                                   
+                                    
                                     turno = (turno == 1) ? 2 : 1;
-
+                                    
                                     Console.WriteLine("EL TURNO ES");
                                     Console.WriteLine(turno);
-
+                                    
                                     UpdatePlayerInfo(out player1, out player2);
                                     _view.SayThatATurnBegins(superstarName1);
                                     Console.WriteLine($"Jugador actual: {superstarName1}");
@@ -496,10 +496,10 @@ namespace RawDeal
                                         Console.WriteLine("Entrando en el bloque de Kane"); // Mensaje de depuración
                                         ApplyKaneAbility(1);
                                         UpdatePlayerInfo(out player1, out player2);
-
-
+                                  
+                                  
                                     }
-
+                                    
                                     DrawCard(player1Deck, player1Hand, turno);
                                     UpdatePlayerInfo(out player1, out player2);
                                 }
@@ -512,30 +512,26 @@ namespace RawDeal
                         if (turno == 1)
                         {
                             _view.ShowGameInfo(player1, player2);
-
                         }
                         else
                         {
                             _view.ShowGameInfo(player2, player1);
                         }
 
-                        if (turno == 1)
+                        if (currentPlayer == "THE UNDERTAKER")
                         {
-                            if (superstarName1 == "THE UNDERTAKER" && player1Hand.Count >= 2)
-                            {
-                                action = _view.AskUserWhatToDoWhenUsingHisAbilityIsPossible();
-                            }
+                            action = _view.AskUserWhatToDoWhenUsingHisAbilityIsPossible();
                         }
                         else
                         {
                             action = _view.AskUserWhatToDoWhenHeCannotUseHisAbility();
                         }
-
-
+                        
+                        
                     }
-
-
-
+                    
+                    
+                    
                     if (turno == 1)
                     {
                         _view.CongratulateWinner(superstarName2);
@@ -544,6 +540,7 @@ namespace RawDeal
                     {
                         _view.CongratulateWinner(superstarName1);
                     }
+                    
                 }
 
 
